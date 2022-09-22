@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="FullScreenControlNamespace" constructor="FullScreenControl" version="1.1.9" display-name-key="FullScreenControl_Display_Key" description-key="FullScreenControl_Desc_Key" control-type="standard">
+   <property name="buttonToggleProperty" display-name-key="buttonToggleProperty_Display_Key" description-key="buttonToggleProperty_Desc_Key" of-type="TwoOptions" usage="bound" required="true" default-value="false"/>
+   <property name="buttonEnabledProperty" display-name-key="buttonEnabledProperty_Display_Key" description-key="buttonEnabledProperty_Desc_Key" of-type="TwoOptions" usage="bound" required="true" default-value="false" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/FullScreenControl.css" order="2" />
+      <resx path="strings/FullScreenControl.1033.resx" version="1.0.0"/>
+    </resources>
+  </control>
+</manifest>
