@@ -1,2 +1,2 @@
 # FullScreenControl
-Power Apps Custom Component
+Power Apps Custom Component by poweractivate
